@@ -26,7 +26,7 @@ menu_item.forEach((item) => {
 });
 
 let typed = new Typed(".typing", {
-  strings: [ "Web Designer.", "Frontend Developer.", "JavaScript Developer." ],
+  strings: [ "Web Developer.", "Frontend Developer.", "JavaScript Developer." ],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
