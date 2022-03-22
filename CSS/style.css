@@ -623,7 +623,8 @@ span {
 
 	/* Header section */
 	#header .mybrand img {
-		padding: 20px 0;
+		width: 45%;
+		padding: 15px 0;
 	}
 	/* End Header section */
 
@@ -779,7 +780,8 @@ span {
 	}
 
 	#header .mybrand img {
-		width: 65%;
+		width: 45%;
+		padding: 15px 0;
 	}
 
 	#header .nav-links ul {
