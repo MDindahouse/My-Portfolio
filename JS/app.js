@@ -32,3 +32,21 @@ let typed = new Typed(".typing", {
   loop: true
 });
 
+
+const button = document.getElementById("myBtn");
+button.addEventListener("click", () => {
+
+  const dots = document.getElementById("dots");
+  const moreText = document.getElementById("more");
+  const button = document.getElementById("myBtn");
+  
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    button.innerHTML = "Read More";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    button.innerHTML = "Read Less";
+    moreText.style.display = "inline"
+  }
+});

@@ -434,7 +434,7 @@ span {
 	justify-content: center;
 	flex-direction: column;
     flex-basis: 50%;
-	padding: 30px;
+	padding: 30px 30px 20px 30px;
 	height: 100%;
 }
 
@@ -451,6 +451,23 @@ span {
     letter-spacing: 0.3rem;
     margin: 10px 0;
     text-align: left;
+}
+
+#portfolio .pcard-info #more {
+	display: none;
+}
+
+#portfolio .pcard-info #myBtn {
+	color: #FF9E9E;
+	font-size: 0.9rem;
+	letter-spacing: 5px;
+	border: none;
+	border-bottom: 1px solid;
+	outline: none;
+	background-color: #151D3B;
+	margin: 10px 0 0 0 ;
+	padding: 0 5px 10px 5px;
+	cursor: pointer;
 }
 
 #portfolio .pcard-item .pcard-img {
@@ -781,7 +798,7 @@ span {
 
 	#header .mybrand img {
 		width: 45%;
-		padding: 15px 0;
+		padding: 12px 0;
 	}
 
 	#header .nav-links ul {
