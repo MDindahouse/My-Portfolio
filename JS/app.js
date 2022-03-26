@@ -51,7 +51,7 @@ button.addEventListener("click", () => {
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    button.innerHTML = "Read Less";
+    button.style.display = "none";
     moreText.style.display = "inline"
   }
 });
