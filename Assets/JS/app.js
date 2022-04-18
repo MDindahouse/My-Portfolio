@@ -1,7 +1,7 @@
 // Header / Hamburger section
-const hamburger = document.querySelector(".header .nav-bar .nav-links .hamburger");
-const mobile_menu = document.querySelector(".header .nav-bar .nav-links ul");
-const menu_item = document.querySelectorAll(".header .nav-bar .nav-links ul li a");
+const hamburger = document.querySelector(".header .nav_bar .nav_links .hamburger");
+const mobile_menu = document.querySelector(".header .nav_bar .nav_links ul");
+const menu_item = document.querySelectorAll(".header .nav_bar .nav_links ul li a");
 const header = document.querySelector(".header.container");
 
 hamburger.addEventListener("click", () => {
@@ -29,7 +29,7 @@ menu_item.forEach((item) => {
 
 // Typing Section
 let typed = new Typed(".typing", {
-  strings: [ "Web Developer.", "Frontend Developer.", "JavaScript Developer." ],
+  strings: ["Frontend Developer.", "JavaScript Developer." ],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
@@ -37,31 +37,30 @@ let typed = new Typed(".typing", {
 // End of Typing Section
 
 
-
 // Read More Section
-const button = document.getElementById("myBtn");
-button.addEventListener("click", () => {
-  const dots = document.getElementById("dots");
-  const moreText = document.getElementById("more");
-  const button = document.getElementById("myBtn");
+// const button = document.getElementById("myBtn");
+// button.addEventListener("click", () => {
+//   const dots = document.getElementById("dots");
+//   const moreText = document.getElementById("more");
+//   const button = document.getElementById("myBtn");
   
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    button.innerHTML = "Read More";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    button.style.display = "none";
-    moreText.style.display = "inline"
-  }
-});
+//   if (dots.style.display === "none") {
+//     dots.style.display = "inline";
+//     button.innerHTML = "Read More";
+//     moreText.style.display = "none";
+//   } else {
+//     dots.style.display = "none";
+//     button.style.display = "none";
+//     moreText.style.display = "inline"
+//   }
+// });
 // End of Read More Section
 
 
 // Animate On Scroll
   AOS.init({
     offSet: 120,
-    duration: 1000,
+    duration: 1500,
     dataAosEasing: "ease-in-out",
   });
 // End of Animate On Scroll

@@ -1,276 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css" type="text/css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8e8af8b305.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="icon" type="image/png" href="./CSS/Img/favicon.ico">
-    <title>Portfolio</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="Assets/CSS/style.css" type="text/css">
+
+	<!-- Animate On Scroll -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- Links -->
+	<script src="https://kit.fontawesome.com/8e8af8b305.js" crossorigin="anonymous"></script>
+
+	<!-- J Query -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+	<!-- Favicon Image -->
+	<link rel="icon" type="image/png" href="Assets/Img/favicon.ico">
+	<title>Portfolio</title>
 </head>
 <body>
-    <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="mybrand">
-          <a href="#">
-            <img src="./CSS/Img/Portfolio.png" alt="Portfolio Image">
-          </a>
-        </div>
-        <div class="nav-links">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#services">SERVICES</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Of Header Section -->
 
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div class="hero-info">
-        <h1>Hello,</h1>
-        <h1>My Name is</h1>
-        <h1>Muhammed</h1>
-        <h5>I'm a <span class="typing"></span></h5>
-        <a href="#services" type="button" class="btn"><h6>HOW I CAN HELP</h6></a>
-      </div>
-    </div>
-  </section>
-  <!-- End Of Hero Section  -->
+	<!-- Header -->
+	<section id="header">
+		<div class="header container">
+			<div class="nav_bar">
+				<div class="mybrand">
+				<a href="#">
+					<img src="Assets/Img/Portfolio Icon.png" alt="My_Brand">
+				</a>
+				</div>
+				<div class="nav_links">
+					<div class="hamburger">
+						<div class="bar"></div>
+					</div>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container" data-aos="zoom-in-down">
-      <div class="about-item">
-        <div class="about-img">
-          <img src="./CSS/Img/muhammed2.jpg" alt="MUHAMMED">
-        </div>
-      </div>
-      <div class="about-info">
-        <h1 class="title">AB<span>O</span>UT <span>M</span>E</h1>
-        <p> 
-            I'm a self-taught Web | Frontend | Javascript Developer
-            located in Lagos, Nigeria.<br>I have developed exceptional web responsive 
-            design which focus on providing the best digital user experience. 
-            I'm well organised, problem solver with high
-            attention to details. I'm interested in freelance opportunties.<br>
-            Let's Work Together.
-        </p>
-        <!-- <a href="#" class="btn">DOWNLOAD RESUME</a> -->
-      </div>
-    </div>
-  </section>
-  <!-- End Of About Section -->
+					<ul>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#services">SERVICES</a></li>
+						<li><a href="#project">PORTFOLIO</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Of Header Section -->
 
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="services-title" data-aos="zoom-in-down">
-        <h1 class="title">SER<span>VI</span>CES</h1>
-        <h3>Book more clients for your online business.</h3>
-        <h5>
-            I help online brands and businesses get more clients and
-            also reach their goals by developing a user digital websites,  
-            so that they can empower more people while doing the work 
-            they truly love.<br>
-            As a web developer, I help my clients do more of that and help
-            them grow their businesses. So let's go get you more clients!
-        </h5>
-      </div>
-      <div class="service-cards">
-        <div class="scard-item" data-aos="zoom-in-down">
-          <div class="scard-img"><img src="./CSS/Img/Skills.png" alt="SKILLS" /></div>
-          <h2>SKILLS</h2>
-          <p><ul>
-            <li>HTML 5</li>
-            <li>CSS 3</li>
-            <li>JAVASCRIPT</li>
-            <li>REACT</li>
-          </ul></p>
-        </div>
-        <div class="scard-item" data-aos="zoom-in-down">
-          <div class="scard-img"><img src="./CSS/Img/Web.png" alt="WEB" /></div>
-          <h2>WEB DEVELOPMENT</h2>
-          <p>I develop and design a layout of a website with newest technology.</p>
-        </div>
-        <div class="scard-item" data-aos="zoom-in-down">
-          <div class="scard-img"><img src="./CSS/Img/Frontend.png" alt="FRONTEND" /></div>
-          <h2>FRONTEND DEVELOPMENT</h2>
-          <p>I create websites that bring exceptional value to your business.</p>
-        </div>
-        <div class="scard-item" data-aos="zoom-in-down">
-          <div class="scard-img"><img src="./CSS/Img/JavaScript.png" alt="JAVASCRIPT" /></div>
-          <h2>JAVASCRIPT DEVELOPMENT</h2>
-          <p>I apply logic that defines the visual elements of a web.</p>
-        </div>
-        <div class="scard-item" data-aos="zoom-in-down">
-          <div class="scard-img"><img src="./CSS/Img/UI-UX.png" alt="UI_UX"></div>
-          <h2>UI/UX DESIGN</h2>
-          <p>I provide high quality, attractive design for websites.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Of Service Section -->
+	<!-- Hero Section  -->
+	<section id="hero">
+		<div class="hero container">
+			<div class="hero_info" data-aos="zoom-in">
+				<span class="hero_title">Hello, <br>
+					My Name is <br>
+					<b>Muhammed</b>
+				</span>
+				<h5 class="hero_subtitle">I'm a <span class="typing"></span></h5>
+				<a href="#services" type="button" class="btn">How I Can Help</a>
+			</div>
+		</div>
+	</section>
+	<!-- End Of Hero Section  -->
 
-  <!-- Projects Section -->
-  <section id="portfolio">
-    <div class="projects container">
-      <div class="project-title">
-        <h1 class="title" data-aos="zoom-in-down">RE<span>CE</span>NT PRO<span>JE</span>CTS</h1>
-      </div>
-      <div class="project-cards">
-        <div class="pcard-item" data-aos="zoom-in-down">
-          <div class="pcard-info">
-            <h2>ROHEEY <span>CAKES</span> AND <span>CREAM</span></h2>
-            <p>
-              At Roheey Cakes and Cream, we are passionate about the art of baking,
-              <span id="dots">...</span>
-              <span id="more">
-                decorating and designing cakes that are a creative expression of your dreams.
-              </span>
-            </p>
-            <button id="myBtn">Read More</button>
-          </div>
-          <div class="pcard-img">
-            <img src="./CSS/Img/Cake.jpg" alt="ROHEEY CAKES">
-          </div>
-        </div>
+	<!-- About Section -->
+	<section id="about">
+		<div class="about container">
+		<div class="about_item"  data-aos="fade-left">
+			<div class="about_img">
+			<img src="Assets/Img/muhammed2.jpg" alt="Muhammed_img">
+			</div>
+		</div>
+		<div class="about_info" data-aos="fade-right">
+			<h1 class="section_title">AB<span>O</span>UT <span>M</span>E</h1>
+			<p class="about_subtitle">
+				I'm a Frontend || Javascript Developer
+				located in Lagos, Nigeria.<br> I build, design and develop 
+				E-commerce sites and responsive designs using HTML, CSS, SASS, JAVASCRIPT, JS FRAMEWORKS 
+				which focus on providing the best digital user experience.<br>   
+				I'm interested in freelance opportunties.<br>
+				Let's Work Together.
+			</p>
+			<a href="" class="btn">View Resume</a>
+		</div>
+		</div>
+	</section>
+	<!-- End Of About Section -->
 
-        <!-- <div class="pcard-item">
-          <div class="pcard-info">
-            <h2>RAYSTONES EXECUTIVE APARTMENTS</h2>
-            <p>
-              RayStones offers clients a perfect 
-              blend of business & leisure amenities with dining and recreational 
-              options. We crown all these with services that meet the highest 
-              international standards.
-            </p>
-          </div>
-          <div class="pcard-img">
-            <img src="./CSS/Img/RayStones.jpg" alt="RAYSTONES HOSTEL">
-          </div>
-        </div> -->
 
-        <!-- <div class="pcard-item">
-          <div class="pcard-info">
-            <h2>REAL ESTATE</h2>
-            <p>.</p>
-          </div>
-          <div class="pcard-img">
-            <img src="/CSS/Img/real estate.jpg" alt="REAL ESTATE">
-          </div>
-        </div>
 
-        <div class="pcard-item">
-          <div class="pcard-info">
-            <h2>CODING PROGRAM</h2>
-            <p>.</p>
-          </div>
-          <div class="pcard-img">
-            <img src="/CSS/Img/Background Image5.png" alt="CODING">
-          </div>
-        </div> -->
-      </div>
-    </div>
-  </section>
-  <!-- End Of Projects Section -->
+	<!-- Service Section -->
+	<section id="services">
+		<div class="services container">
+		<div class="service_info" data-aos="zoom-in-down">
+			<h1 class="section_title">SER<span>VI</span>CES</h1>
+			<h3 class="service_title">Book more clients for your online business.</h3>
+			<p class="service_subtitle">
+				I help online brands and businesses get more clients and
+				also reach their goals by developing a user digital websites,  
+				so that they can empower more people while doing the work 
+				they truly love.<br>
+				As a web developer, I help my clients do more of that and help
+				them grow their businesses. So let's go get you more clients!
+			</p>
+		</div>
+		<div class="service_cards">
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact-title" data-aos="zoom-in-down">
-        <h1 class="title">CON<span>T</span>ACT</h1>
-      </div>
-    <div class="contact container">
-      <div class="contact-info">
-        <div class="contact-cards">
-          <div class="ccard-item" data-aos="zoom-in-down">
-            <div class="ccard-img"><img src="./CSS/Img/Phone.png" alt="Image" /></div>
-            <div class="ccard-info">
-              <h1><span>Phone</span></h1>
-              <p>+234 805 149 0908</p>
-              <p>+234 802 498 6943</p>
-            </div>
-          </div>
+			<div class="scard_item" data-aos="zoom-in-down">
+				<div class="scard_img">
+					<img src="Assets/Img/Web.png" alt="WEB" />
+				</div>
+				<h2 class="scard_title">WEB DEVELOPMENT</h2>
+				<p class="scard_subtitle">I develop layout for website with newest tech.</p>
+			</div>
 
-          <div class="ccard-item" data-aos="zoom-in-down">
-            <div class="ccard-img"><img src="./CSS/Img/Email.png" alt="Image" /></div>
-            <div class="ccard-info">
-              <h1><span>Email</span></h1>
-              <p>sayhello2moa@yahoo.co.uk</p>
-              <p>sayhello2moa@gmail.com</p>
-            </div>
-          </div>
+			<div class="scard_item" data-aos="zoom-in-down">
+				<div class="scard_img">
+					<img src="Assets/Img/Frontend.png" alt="FRONTEND" />
+				</div>
+				<h2 class="scard_title">FRONTEND DEVELOPMENT</h2>
+				<p class="scard_subtitle">I create websites that bring value to your business.</p>
+			</div>
 
-          <div class="ccard-item" data-aos="zoom-in-down">
-            <div class="ccard-img"><img src="./CSS/Img/Address.png" alt="Image" /></div>
-            <div class="ccard-info">
-              <h1><span>Address</span></h1>
-              <p>PLT 2 BLK 4 G.R.A EXTENSION, GBOKONIYI.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+			<div class="scard_item" data-aos="zoom-in-down">
+				<div class="scard_img">
+					<img src="Assets/Img/JavaScript.png" alt="JAVASCRIPT" />
+				</div>
+				<h2 class="scard_title">JAVASCRIPT DEVELOPMENT</h2>
+				<p class="scard_subtitle">I apply logic that defines the visual elements of a web.</p>
+			</div>
 
-      <div class="form-info" data-aos="zoom-in-down">
-          <div class="form-message">
-              GET <span>IN</span> TOUCH
-          </div>
-            <form action="">
-              <div class="form-name">
-                <input type="text" placeholder="NAME" required>
-              </div>
+			<div class="scard_item" data-aos="zoom-in-down">
+				<div class="scard_img">
+					<img src="Assets/Img/UI-UX.png" alt="UI_UX">
+				</div>
+				<h2 class="scard_title">UI/UX DESIGN</h2>
+				<p class="scard_subtitle">I provide high quality, active design for web.</p>
+			</div>
 
-              <div class="form-email">
-                <input type="email" placeholder="EMAIL" required>
-              </div>
+			<div class="scard_item" data-aos="zoom-in-down">
+				<div class="scard_img">
+					<img src="Assets/Img/Skills.png" alt="SKILLS" />
+				</div>
+				<h2 class="scard_title">SKILLS</h2>
+				<p>
+					<ul>
+						<li>HTML 5</li>
+						<li>CSS 3</li>
+						<li>JAVASCRIPT</li>
+						<li>JS FRAMEWORKS</li>
+					</ul>
+				</p>
+			</div>
 
-              <div class="form-subject">
-                <input type="text" placeholder="SUBJECT" required>
-              </div>
+			<!-- <div class="scard_item" data-aos="zoom-in-down">
+				<div class="scard_img">
+					<img src="Assets/Img/Skills.png" alt="SKILLS" />
+				</div>
+				<h2 class="scard_title">SKILLS</h2>
+				<p>
+					<ul>
+						<li>HTML 5</li>
+						<li>CSS 3</li>
+						<li>JAVASCRIPT</li>
+						<li>JS FRAMEWORKS</li>
+					</ul>
+				</p>
+			</div> -->
 
-              <div class="form-textarea">
-                <textarea cols="30" rows="10" placeholder="DESCRIBE PROJECT..." required></textarea>
-              </div>
+		</div>
+	</section>
+	<!-- End Of Service Section -->
 
-              <div class="form-submit">
-                <button type="submit">SEND MESSAGE</button>
-              </div>
-            </form>
-      </div>
-    </div>
-  </section>
-  <!-- End Of Contact Section -->
 
-   <!-- Footer Section -->
-    <footer id="footer">
-      <div class="footer-container">
-          <h5>YOUR SOLUTION FOR WEB DEVELOPMENT</h5>
-        <div class="media-link">
-          <a href="https://www.linkedin.com/in/muhammed-osinubi-adebanjo-a259311b5" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-          <a href="https://github.com/MDindahouse" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="copyright">
-          <p>Copyright ©2021 Adebanjo Muhammed.</p>
-        </div>
-      </div>
-    </footer>
-    <!-- End of Footer Section -->
-    <script src="JS/app.js"></script>
+
+	<!-- Projects Section -->
+	<section id="project">
+		<div class="projects container">
+			<div data-aos="zoom-in-down">
+				<h1 class="section_title">RE<span>CE</span>NT PRO<span>JE</span>CTS</h1>
+			</div>
+
+			<div class="project_cards">
+				<div class="pcard_item" data-aos="zoom-in-down">
+					<div class="pcard_info">
+						<h2 class="project_title">ROHEEY <span>CAKES</span> AND <span>CREAM</span></h2>
+						<p class="project_subtitle">
+							At Roheey Cakes and Cream, we are passionate about the art of baking,
+							<span id="dots">...</span>
+							<span id="more">
+								decorating and designing cakes that are a creative expression of your dreams,
+							</span>
+						</p>
+						<a href="https://roheey.netlify.app/#" class="btn" target="_blank">View Site</a>
+					</div>
+					<div class="pcard_img">
+						<img src="Assets/Img/Roheey.png" alt="ROHEEY CAKES AND CREAM">
+					</div>
+				</div>
+
+				<div class="pcard_item" data-aos="zoom-in-down">
+					<div class="pcard_info">
+						<h2 class="project_title">MUHAMMED'S PORT<span>FOLIO</span></h2>
+						<p class="project_subtitle">
+							A portfolio for Muhammed a Frontend || JavaScript Developer from Nigeria.<br>
+							<span id="dots">...</span>
+							<span id="more">
+								The portfolio is made using HTML, CSS and JavaScript and JS Framework.
+							</span>
+						</p>
+						<a href="" class="btn" target="_blank">View Site</a>
+					</div>
+					<div class="pcard_img">
+						<img src="Assets/Img/Portfolio.png" alt="PORTFOLIO">
+					</div>
+				</div>
+
+				<!-- <div class="pcard-item">
+				<div class="pcard-info">
+					<h2>RAYSTONES EXECUTIVE APARTMENTS</h2>
+					<p>
+					RayStones offers clients a perfect 
+					blend of business & leisure amenities with dining and recreational 
+					options. We crown all these with services that meet the highest 
+					international standards.
+					</p>
+				</div>
+				<div class="pcard-img">
+					<img src="./CSS/Img/RayStones.jpg" alt="RAYSTONES HOSTEL">
+				</div>
+				</div> -->
+			</div>
+		</div>
+	</section>
+	<!-- End Of Projects Section -->
+
+
+
+	<!-- Footer Section -->
+	<footer>
+		<div class="footer_info">
+			<div class="left box">
+				<h2>Useful Links</h2>
+				<div class="content">
+					<p class="text">
+						<ul class="links">
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#project">Portfolio</a></li>
+						</ul>
+					</p>
+
+					<div class="social">
+						<a href="https://www.linkedin.com/in/muhammed-osinubi-adebanjo-a259311b5" target="_blank">
+							<i class="fab fa-linkedin"></i>
+						</a>
+
+						<a href="#" target="_blank">
+							<i class="fab fa-twitter"></i>
+						</a>
+
+						<a href="https://github.com/MDindahouse" target="_blank">
+							<i class="fab fa-github"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		
+			<div class="divider"></div>
+			<div class="center box">
+				<h2>Contact Info</h2>
+				<div class="content">
+
+					<div class="address">
+						<div class="img"><img src="Assets/Img/Address.png" alt="Image" /></div>
+						<p class="text">PLT 2 BLK 4 G.R.A EXTENSION, GBOKONIYI.</p>
+					</div>
+
+					<div class="phone">
+						<div class="img"><img src="Assets/Img/Phone.png" alt="Image" /></div>
+						<p class="text">+234 805 149 0908</p>
+						<p class="text">+234 802 498 6943</p>
+					</div>
+
+					<div class="email">
+						<div class="img"><img src="Assets/Img/Email.png" alt="Image" /></div>
+						<p class="text">sayhello2moa@yahoo.co.uk</p>
+						<p class="text">sayhello2moa@gmail.com</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="divider"></div>
+			<div class="right box">
+				<h2>Get In Touch</h2>
+				<div class="content">
+					<form action="POST">
+						<div class="name">
+							<input type="text" placeholder="NAME*" required>
+						</div>
+
+						<div class="email">
+							<input type="email" placeholder="EMAIL*" required>
+						</div>
+
+						<div class="subject">
+							<input type="text" placeholder="SUBJECT*" required>
+						</div>
+
+						<div class="msg">
+							<textarea cols="30" rows="10" placeholder="DESCRIBE...*" required></textarea>
+						</div>
+						
+						<div>
+							<a href="#" class="btn">Send</a>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright ©2022 Adebanjo Muhammed || All rights Reserved.
+			</p>
+		</div>
+	</footer>
+		<!-- End of Footer Section -->
+
+
+		<!-- Animate On Scroll -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		
+		<!-- Main Js-->
+		<script src="Assets/JS/app.js"></script>
 </body>
 </html>

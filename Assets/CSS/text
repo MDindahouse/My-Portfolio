@@ -1,0 +1,76 @@
+<div class="scard_item" data-aos="zoom-in-down">
+				<div class="scard_img">
+					<img src="Assets/Img/Skills.png" alt="SKILLS" />
+				</div>
+				<h2>SKILLS</h2>
+				<p>
+					<ul>
+						<li>HTML 5</li>
+						<li>CSS 3</li>
+						<li>JAVASCRIPT</li>
+						<li>JS FRAMEWORKS</li>
+					</ul>
+				</p>
+			</div>
+
+            <a href="https://www.linkedin.com/in/muhammed-osinubi-adebanjo-a259311b5" target="_blank"><i class="fab fa-linkedin"></i></a>
+			<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://github.com/MDindahouse" target="_blank"><i class="fab fa-github"></i></a>
+
+
+
+                  <div class="copyright">
+				<p>
+					Copyright ©2021 Adebanjo Muhammed.
+				</p>
+			</div>
+
+
+
+
+                  /* footer {
+	background-color: #151D3B;
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer .footer-container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 auto;
+}
+
+footer .footer-container h5 {
+	font-size: 1rem;
+	color: #FFFFFF;
+	letter-spacing: 0.2rem;
+	padding: 10px 0;
+}
+
+footer .media-link i {
+	color: #FFFFFF;
+	font-size: 1.8rem;
+	margin: 15px 15px;
+} 
+
+footer .media-link i:hover {
+	color: #FF9E9E;
+	transition: .3s ease;
+}
+
+.footer-container .copyright p {
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 0.2rem;
+	color: #FFFFFF; 
+	margin-bottom: 5px;
+} */
+
+
+.divider {
+	background-color: #DAE0E6;
+	width: 90%;
+	margin: 0 auto;
+	height: 1px;
+}
