@@ -7,12 +7,22 @@
 	padding: 0;
 }
 
+:root {
+	--primary-color: #F1F1F1;
+	--secondary-color: #6F4444;
+}
+
+.dark_theme {
+	--primary-color: #000000;
+	--secondary-color: #ffffff;
+}
+
 html {
 	scroll-behavior: smooth;
 }
 
 body {
-	background-color: #F1F1F1;
+	background-color: var(--primary-color);
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -42,22 +52,24 @@ span {
 .btn {
 	font-family: 'Montserrat', sans-serif;
 	font-size: .77rem;
-	font-weight: 400;
-	letter-spacing: .4rem;
+	letter-spacing: .3rem;
 	border: 1px solid #FF9E9E;
 	color: #FFFFFF;
 	display: inline-block;
-	padding: .55rem .90rem;
+	padding: .55rem .80rem;
 	transition: 0.3s ease;
 }
 
 .section_title {
+	color: var(--secondary-color);
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
 	font-weight: normal;
 	letter-spacing: .3rem;
 	text-align: center;
+	margin: 1.5rem 0;
 }
+
 
 /* Header section */
 #header {
@@ -96,7 +108,7 @@ span {
 	justify-content: center;
 	list-style-type: none;
 	background-color: #151D3B;
-	opacity: 0.9;
+	opacity: .951;
 	width: 100vw;
 	height: 100vh;
 	position: absolute;
@@ -184,6 +196,7 @@ span {
 #header .hamburger.active .bar {
 	background-color: transparent;
 }
+
 /* End Header section */
 
 
@@ -223,21 +236,21 @@ span {
 
 #hero .hero_title {
 	font-size: 2.5rem;
-	line-height: 1.7;
-	letter-spacing: 0.5rem;
+	line-height: 1.5;
+	letter-spacing: 0.2rem;
 	display: block;
 }
 
 #hero .hero_subtitle {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-weight: normal;
 	letter-spacing: 0.2rem;
-	margin-bottom: 1.2rem;
+	margin: .3rem 0 1.5rem 0;
 }
 
 #hero .btn:hover {
 	background-color: #FF9E9E;
-	color: #000;
+	color: var(--secondary-color);
 }
 /* End Of Hero Section */
 
@@ -245,7 +258,6 @@ span {
 
 /* About Section */
 #about .about {
-	color: #6F4444;
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
@@ -258,18 +270,18 @@ span {
 }
 
 #about .about_subtitle {
-	color: #6F4444;
-	font-size: 1rem;
+	color: var(--secondary-color);
+	font-size: 1.1rem;
 	line-height: 2;
-	letter-spacing: 0.1rem;
+	letter-spacing: .1rem;
 	margin: 1rem auto 0 auto;
 	width: 90%;
 }
 
 #about .btn {
-	color: #000;
-	margin: 1rem auto;
-	width: 45%;
+	color: var(--secondary-color);
+	margin: 1rem;
+	width: 50%;
 }
 
 #about .btn:hover {
@@ -278,8 +290,8 @@ span {
 
 #about .about_img {
 	border: 5px solid #FF9E9E;
-	width: 250px;
-	height: 350px;
+	width: 230px;
+	height: 330px;
 }
 /* End About Section */
 
@@ -295,7 +307,7 @@ span {
 }
 
 #services .service_info {
-	color: #6F4444;
+	color: var(--secondary-color);
 	width: 90%;
 }
 
@@ -307,9 +319,11 @@ span {
 }
 
 #services .service_subtitle {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	line-height: 2;
 	letter-spacing: .2rem;
+	margin: 1rem auto 0 auto;
+	width: 90%;
 }
 
 #services .service_cards {
@@ -318,7 +332,7 @@ span {
 	justify-content: center;
 	flex-wrap: wrap;
 	row-gap: 2rem;
-	margin-top: 3rem;
+	margin-top: 2.5rem;
 }
 
 #services .scard_item {
@@ -352,16 +366,15 @@ span {
 }
 
 #services .scard_img {
-	width: 70px;
-	height: 70px;
-	margin-bottom: 1rem;
+	width: 60px;
+	height: 60px;
 }
 
 #services .scard_title {
-	font-size: 1.6rem;
-	font-weight: 500;
+	font-size: 1.3rem;
+	font-weight: 600;
 	letter-spacing: .5rem;
-	margin: 1rem 0;
+	margin: .8rem 0;
 }
 
 #services .scard_subtitle {
@@ -373,12 +386,12 @@ span {
 #services .scard_item ul {
 	letter-spacing: 0.3rem;
 	text-align: left;
-	padding: .1rem .2rem;
+	padding: 0 .7rem;
 }
 
 #services .scard_item li {
-	font-size: 1.2rem;
-	padding: 5px 20px;
+	font-size: 1rem;
+	padding: .4rem 0;
 }
 /* End Services Section */
 
@@ -420,19 +433,19 @@ span {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	padding: 1.4rem;
+	padding: 1.3rem;
 }
 
 #project .project_title {
-	font-size: 1.5rem;
-	font-weight: 500;
+	font-size: 1.3rem;
+	font-weight: 600;
 	letter-spacing: 0.3rem;
 	margin-top: .9rem;
 }
 
 #project .project_subtitle {
-	font-size: 1.1rem;
-	line-height: 1.6;
+	font-size: 1rem;
+	line-height: 1.5;
 	letter-spacing: 0.3rem;
 	margin-top: .9rem;
 	text-align: left;
@@ -543,6 +556,7 @@ footer::after {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
+     margin-top: 2rem;
 }
 
 .box .content {
@@ -617,7 +631,7 @@ form {
 }
 
 .right form .btn:hover {
-	color: #000;
+	color: var(--secondary-color);
 	background-color: #FF9E9E;
 }
 
@@ -629,6 +643,18 @@ form {
 	text-align: center;
 }
 /* End of Footer Styles */
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+	width: .50rem;
+	background-color: #E9E2E2;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #073055;
+}
+/* End of Scroll Bar */
+
 
 
 
@@ -736,6 +762,7 @@ form {
 		position: initial;
 		width: fit-content;
 		height: auto;
+		padding: 0;
 	}
 
 	#header .nav_links ul li {
@@ -766,7 +793,7 @@ form {
 	/* About Section */
 	#about .about_subtitle {
 		font-size: 1.3rem;
-		line-height: 1.7;
+		line-height: 2;
 	}
 
 	#about .btn {
