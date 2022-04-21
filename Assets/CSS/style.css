@@ -632,6 +632,10 @@ form {
 	outline: none;
 }
 
+.right form .btn {
+	background-color: transparent;
+}
+
 .right form .btn:hover {
 	background-color: #FF9E9E;
 	cursor: pointer;
