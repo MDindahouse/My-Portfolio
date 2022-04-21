@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
-
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -8,6 +5,7 @@
 }
 
 :root {
+
 	--primary-color: #F1F1F1;
 	--secondary-color: #6F4444;
 }
@@ -32,6 +30,10 @@ img {
 	object-fit: cover;
 }
 
+#icon:hover {
+	cursor: pointer;
+}
+
 .container {
 	min-height: 100vh;
 	width: 100%;
@@ -50,7 +52,6 @@ span {
 }
 
 .btn {
-	font-family: 'Montserrat', sans-serif;
 	font-size: .77rem;
 	letter-spacing: .3rem;
 	border: 1px solid #FF9E9E;
@@ -62,13 +63,14 @@ span {
 
 .section_title {
 	color: var(--secondary-color);
-	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
 	font-weight: normal;
 	letter-spacing: .3rem;
 	text-align: center;
 	margin: 1.5rem 0;
 }
+
+
 
 
 /* Header section */
@@ -133,7 +135,7 @@ span {
 	color: #FFFFFF;
 	letter-spacing: 0.3rem;
 	margin-bottom: 10px;
-	padding: 20px;
+	padding: 1.4rem;
 	text-decoration: none;
 	transition: 0.4s ease;
 }
@@ -196,7 +198,6 @@ span {
 #header .hamburger.active .bar {
 	background-color: transparent;
 }
-
 /* End Header section */
 
 
@@ -256,6 +257,7 @@ span {
 
 
 
+
 /* About Section */
 #about .about {
 	flex-direction: column-reverse;
@@ -281,7 +283,7 @@ span {
 #about .btn {
 	color: var(--secondary-color);
 	margin: 1rem;
-	width: 50%;
+	width: 45%;
 }
 
 #about .btn:hover {
@@ -397,6 +399,7 @@ span {
 
 
 
+
 /* Projects section */
 #project .projects {
 	color: #6F4444;
@@ -505,6 +508,7 @@ span {
 
 
 
+
 /* Footer Styles */
 .divider {
 	background-color: #676768;
@@ -534,7 +538,6 @@ footer::after {
 }
 
 .text {
-	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	color: #FFF;
 }
@@ -542,7 +545,6 @@ footer::after {
 .footer_info {
 	display: flex;
 	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
 }
 
 .box {
@@ -556,7 +558,7 @@ footer::after {
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
-     margin-top: 2rem;
+	margin-top: 2rem;
 }
 
 .box .content {
@@ -624,7 +626,7 @@ form {
 	color: #FF9E9E;
 	font-size: .9rem;
 	letter-spacing: .2rem;
-	width: 100%;
+	width: 85%;
 	padding: .7rem;
 	border: 1px solid #FFF;
 	outline: none;
@@ -643,6 +645,9 @@ form {
 	text-align: center;
 }
 /* End of Footer Styles */
+
+
+
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
@@ -668,6 +673,8 @@ form {
 	}
 	/* End Header section */
 
+
+
 	/* Hero Section */
 	#hero .hero {
 		display: flex;
@@ -689,11 +696,18 @@ form {
 	}
 	/* End Of Hero Section */
 
+
+
 	/* About Section */
 	#about .about {
 		flex-direction: row;
 		padding: 1.3rem;
 		margin: 0 auto;
+	}
+
+	#about .btn {
+		font-size: .89rem;
+		width: 40%;
 	}
 	/* End of About Section */
 
@@ -710,6 +724,8 @@ form {
 	}
 	/* End of Services Section */
 
+
+
 	/* Project Section */
 	#project .pcard_item {
 		flex-direction: row;
@@ -724,7 +740,7 @@ form {
 	}
 
 	#project .pcard_info {
-		width: 50%;
+		width: 75%;
 		height: 100%;
 	}
 
@@ -733,17 +749,16 @@ form {
 	}
 
 	#project .project_title {
-		font-size: 2rem;
+		font-size: 1.7rem;
 	}
 
 	#project .project_subtitle {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		line-height: 1.5;
 	}
 	/* /* End of Project Styles * */
 }
 	/* End of Media Query For Tablet */
-
 
 
 
@@ -799,7 +814,6 @@ form {
 	#about .btn {
 	width: 25%;
 	}
-
 	/* End of About Section */
 
 
@@ -834,16 +848,21 @@ form {
 
 
 	/* Project Section */
+
+	#project .pcard_info {
+		width: 55%;
+		padding: 1rem 2rem;
+	}
+
 	#project .project_title {
-		font-size: 2.3rem;
+		font-size: 2rem;
 	}
 
 	#project .project_subtitle {
-		font-size: 1.3rem;
-		line-height: 2;
+		font-size: 1.2rem;
+		line-height: 2.5;
 	}
 	/* End of Project Styles */
-
 
 
 
