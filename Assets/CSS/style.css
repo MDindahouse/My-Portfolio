@@ -7,7 +7,7 @@
 :root {
 
 	--primary-color: #F1F1F1;
-	--secondary-color: #6F4444;
+	--secondary-color: #000000;
 }
 
 .dark_theme {
@@ -633,8 +633,8 @@ form {
 }
 
 .right form .btn:hover {
-	color: var(--secondary-color);
 	background-color: #FF9E9E;
+	cursor: pointer;
 }
 
 .copyright {
